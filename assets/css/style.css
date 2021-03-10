@@ -1,0 +1,17 @@
+body {
+    overflow-x: hidden;
+}
+.text {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+.img {
+    margin: 0 auto;
+    display: block;
+    height: 820px;
+}
+.img:hover {
+    transform: scaleX(7);
+    transition: transform 1s ease;
+}
